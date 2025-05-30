@@ -24,5 +24,6 @@ public class ConsumoAutonomia {
             System.out.println("Você precisa abastecer o carro para completar a viagem");
         }
 
+        sc.close();
     }
 }
