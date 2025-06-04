@@ -14,6 +14,8 @@ public class DiaUtil {
             System.out.println(diaSemana + " é um dia útil.");
         } else {
             System.out.println(diaSemana + " não é um dia útil.");
+
+            sc.close();
         }
     }
 }
