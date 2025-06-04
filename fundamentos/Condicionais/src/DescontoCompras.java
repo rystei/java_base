@@ -14,6 +14,8 @@ public class DescontoCompras {
         } else {
             System.out.println("Nenhum desconto aplicado.");
             System.out.println("Valor total: R$: " + valorCompra);
+
+            sc.close();
         }
     }
 }
