@@ -22,6 +22,8 @@ public class NivelPermissao {
         }
         if (!permissaoValido) {
             System.out.println("Acesso negado, nivel de acesso insuficiente");
+
+            sc.close();
         }
     }
 }
